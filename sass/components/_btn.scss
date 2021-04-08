@@ -1,0 +1,23 @@
+.btn {
+  padding: 18px 32px;
+  justify-content: center;
+  border: none;
+  margin: 0px;
+  padding-bottom: 200px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--button-hover-color);
+  min-width: 200px;
+  padding: 10px 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  background-color: var(--accent-color);
+  border: 0px;
+  cursor: pointer;
+  &focus {
+    background-color: #188ce8;
+  }
+}

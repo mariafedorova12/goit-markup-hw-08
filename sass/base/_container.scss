@@ -1,0 +1,37 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.page-header .container {
+  display: flex;
+  align-items: center;
+}
+
+.hero-container {
+  align-items: center;
+  text-align: center;
+  padding-bottom: var(--section-pb);
+}
+
+.crew .container {
+  padding-top: var(--section-pt);
+  padding-bottom: var(--section-pb);
+}
+
+.clients .container {
+  padding-top: var(--section-pt);
+  padding-bottom: var(--section-pb);
+}
+
+.footer.container {
+  display: flex;
+  align-items: baseline;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.portfolio.container {
+  padding-bottom: var(--section-pb);
+  padding-top: var(--section-pb);
+}
