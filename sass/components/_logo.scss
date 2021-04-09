@@ -7,6 +7,11 @@
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
+@media screen and (min-width: 768px){
+.logo{
+  margin-right: 88px;
+}
+}
 
 .logo__accent-text {
   color: var(--accent-color);
