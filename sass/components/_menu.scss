@@ -7,9 +7,8 @@
 }
 
 .menu__item {
-  display: flex;
-    align-items: center;
-    margin-left: auto;
+  display: inline-block;
+  align-items: center;
   position: relative;
   &:not(:last-child) {
     margin-right: 50px;
@@ -17,7 +16,6 @@
 }
 .menu__link {
   display: flex;
-  
   padding-top: 32px;
   padding-bottom: 32px;
   font-weight: 500;
