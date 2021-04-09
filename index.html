@@ -38,6 +38,11 @@
             </li>
           </ul>
         </nav>
+        <button type="button" class="menu__btn" data-menu-button>
+          <svg class="menu__icon">
+            <use href="./images/icons.svg#icon-menu"> </use>
+          </svg>
+        </button>
         <ul class="contact list">
           <li class="contact__item">
             <a
@@ -61,11 +66,34 @@
           </li>
         </ul>
       </div>
+      <div class="mobile-menu" data-menu>
+        <button type="button" class="mobile-menu__close-button" data-menu-close>
+          <svg class="mobile-menu__close-icon">
+            <use href="./images/icons.svg#icon-close_40px"></use>
+          </svg>
+        </button>
+        <ul class="mobile-menu__list list">
+          <li class="mobile-menu__item">
+            <a href="" class="mobile-menu_link link">Студия</a>
+          </li>
+          <li class="mobile-menu__item">
+            <a href="" class="mobile-menu_link link">Портфолио</a>
+          </li>
+          <li class="mobile-menu__item">
+            <a href="" class="mobile-menu_link link">Контакты</a>
+          </li>
+          <li class="mobile-menu__item">
+            <a href="" class="mobile-menu_link link">+380961111111</a>
+            <li class="mobile-menu__item">
+              <a href="" class="mobile-menu_link link"> info@devstudio.com</a>
+          </li>
+        </ul>
+      </div>
     </header>
     <main>
       <!--HERO-->
 
-      <section class="hero">
+       <!--<section class="hero">
         <div class="hero-container">
           <h1 class="hero__title list">
             Эффективные решения для вашего бизнеса
@@ -74,11 +102,11 @@
             Заказать услугу
           </button>
         </div>
-      </section>
+      </section>-->
 
       <!--ABOUT-->
 
-      <section class="about">
+       <!--<section class="about">
         <div class="container">
           <ul class="about list">
             <li class="about__item">
@@ -131,11 +159,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section>-->
 
       <!--SERVICES-->
 
-      <section class="services">
+       <!--<section class="services">
         <div class="container">
           <h2 class="services__title">Чем мы занимаемся</h2>
           <ul class="services__list list">
@@ -171,11 +199,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section>-->
 
       <!--CREW-->
 
-      <section class="crew">
+       <!--<section class="crew">
         <div class="container">
           <h2 class="crew__title">Наша команда</h2>
           <ul class="crew-list list">
@@ -350,10 +378,11 @@
           </ul>
         </div>
       </section>
-    </main>
+    </main>-->
 
     <!--REGULAR CLIENTS-->
-    <section class="clients">
+    
+     <!--<section class="clients">
       <div class="container">
         <h2 class="clients__title">Постоянные клиенты</h2>
 
@@ -406,7 +435,7 @@
 
     <!--FOOTER-->
 
-    <footer class="footer">
+     <!--<footer class="footer">
       <div class="footer container">
         <div class="adress">
           <div class="logo logo_theme_dark">
@@ -442,9 +471,9 @@
                 >+38 096 111 11 11</a
               >
             </li>
-          </ul>
+          </ul>-->
           <!--JOIN-->
-        </div>
+         <!--</div>
         <div class="social">
           <b class="join">ПРИСОЕДИНЯЙТЕСЬ</b>
           <ul class="social-list list">
@@ -477,9 +506,10 @@
               </a>
             </li>
           </ul>
-        </div>
+        </div>-->
+        
         <!--FORM SIGNUP-->
-        <form class="signup-form" autocomplete="off">
+         <!--<form class="signup-form" autocomplete="off">
           <p class="signup-form__title">ПОДПИШИТЕСЬ НА РАССЫЛКУ!</p>
           <div class="signup-form__wrapper">
             <input
@@ -497,9 +527,10 @@
           </div>
         </form>
       </div>
-    </footer>
+    </footer>-->
+
     <!--MODAL WINDOW-->
-    <div class="backdrop is-hidden" data-modal>
+     <!--<div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal__button" data-modal-close>
           <svg class="close-button-icon" width="11" height="11">
@@ -572,6 +603,8 @@
         </form>
       </div>
     </div>
-    <script src="./js/modal.js"></script>
+    <script src="./js/modal.js"></script>-->
+  <script src="./js/mobile-menu.js"></script>
+  
   </body>
 </html>
