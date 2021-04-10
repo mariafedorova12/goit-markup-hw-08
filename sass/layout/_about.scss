@@ -1,6 +1,5 @@
 
 
-@media screen and (min-width: 480px){
   .container{
     min-width:480px;
    
@@ -34,12 +33,12 @@
     letter-spacing: 0.03em;
   color: var(--text-description-color);
   }
-}
+
 
 
 @media screen and (min-width: 768px) {
   
-  .about{
+  .about__list{
     display: flex;
     flex-wrap: wrap; 
     align-items: center;
