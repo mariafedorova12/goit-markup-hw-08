@@ -60,6 +60,9 @@ letter-spacing: 0.02em;
     color: var(--accent-color);
   }
 }
+.mobile-menu_link--current{
+  color: var(--accent-color)
+}
 .mobile-contact__list{
   padding-top: 302px;
 }
@@ -98,6 +101,9 @@ color: var(--accent-color);
   }
 .mobile-social__item{
   border-right: 1px solid rgba(33, 33, 33, 0.2);
+  &:last-child {
+    border-right: none;
+  }
 }
 }
 

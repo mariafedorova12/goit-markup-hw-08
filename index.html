@@ -122,7 +122,7 @@
 
       <!--ABOUT-->
 
-       <!--<section class="about">
+       <section class="about">
         <div class="container">
           <ul class="about list">
             <li class="about__item">
@@ -175,7 +175,7 @@
             </li>
           </ul>
         </div>
-      </section>-->
+      </section>
 
       <!--SERVICES-->
 
@@ -219,17 +219,21 @@
 
       <!--CREW-->
 
-       <!--<section class="crew">
+       <section class="crew">
         <div class="container">
           <h2 class="crew__title">Наша команда</h2>
           <ul class="crew-list list">
             <li class="crew-list__item">
-              <img
-                class="crew-list__img"
-                src="./images/crew/Игорь-1.jpg"
-                alt="мужчина в бордовой рубашке и очках"
-                width="270"
-              />
+<picture>
+  <source srcset="" media="(min-width 1200px)">
+  <source srcset="" media="(min-width 768px)">
+  <source srcset="./images/mobile/Игорь.jpg 1x, ./images/mobile/Игорь@2x.jpg 2x" media="(min-width 480px)">
+  <img
+  class="crew-list__img"
+  src=" ./images/crew/Игорь-1.jpg"
+  alt="мужчина в бордовой рубашке и очках"
+/>
+</picture>
               <div class="crew-list__wrapper">
                 <h3 class="crew-list__title">Игорь Демьяненко</h3>
                 <p class="crew-list__position" lang="en">Product Designer</p>
@@ -266,12 +270,14 @@
               </div>
             </li>
             <li class="crew-list__item">
+             
               <img
                 class="crew-list__img"
                 src="./images/crew/Ольга-2.jpg"
                 alt="девушка в чёрном пиджаке и очках"
-                width="270"
               />
+            
+              
               <div class="crew-list__wrapper">
                 <h3 class="crew-list__title">Ольга Репина</h3>
                 <p class="crew-list__position" lang="en">Frontend Developer</p>
@@ -308,12 +314,14 @@
               </div>
             </li>
             <li class="crew-list__item">
+             
               <img
                 class="crew-list__img"
                 src="./images/crew/Николай-3.jpg"
                 alt="улыбающийся мужчина в белой рубашке"
-                width="270"
+               
               />
+              
               <div class="crew-list__wrapper">
                 <h3 class="crew-list__title">Николай Тарасов</h3>
                 <p class="crew-list__position" lang="en">Marketing</p>
@@ -350,12 +358,13 @@
               </div>
             </li>
             <li class="list crew-list__item">
-              <img
-                class="crew-list__img"
-                src="./images/crew/Михаил-4.jpg"
-                alt="мужчина в очках и чёрной рубашке"
-                width="270"
-              />
+             
+                <img
+                  class="crew-list__img"
+                  src="./images/crew/Михаил-4.jpg"
+                  alt="мужчина в очках и чёрной рубашке"
+                 
+                />
               <div class="crew-list__wrapper">
                 <h3 class="crew-list__title">Михаил Ермаков</h3>
                 <p class="crew-list__position" lang="en">UI Designer</p>
@@ -394,11 +403,11 @@
           </ul>
         </div>
       </section>
-    </main>-->
+    </main>
 
     <!--REGULAR CLIENTS-->
     
-     <!--<section class="clients">
+     <section class="clients">
       <div class="container">
         <h2 class="clients__title">Постоянные клиенты</h2>
 

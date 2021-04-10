@@ -1,6 +1,7 @@
 .container{
   padding-left: 15px;
   padding-right: 15px;
+  margin: 0 auto;
 
   .page-header & {
     display: flex;
@@ -13,14 +14,17 @@
 
 @media screen and (min-width: 480px) {
   .container{
-    width: 480px;
-    margin: 0 auto;
+    min-width: 480px;
+    padding-left: 15px;
+  padding-right: 15px;
+    margin:0 auto;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container{
     width: 768px;
+    
   }
 }
 
