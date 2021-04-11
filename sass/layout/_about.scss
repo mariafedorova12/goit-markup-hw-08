@@ -1,103 +1,27 @@
-
-.contanier {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  min-width: 480px;
-  margin-right: 0;
-  margin-left: 0;
-  
-}
-.about__list{
-  margin-left: 30px;
-    margin-top: 30px;
-}
-
-.about__title {
-  margin-bottom: 10px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-}
-.about__description {
-  font-size: 14px;
-  line-height: 1.71;
-  color: var(--text-description-color);
-  text-align: left;
-  
-}
-.about__cardset {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 270px;
-  height: 120px;
-  background-color: var(--secondary-background-color);
-  border-radius: 4px;
+.about {
+  @media screen and (max-width: 1199px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
  
-}
-
-
-@media screen and (min-width: 768px) {
-  
-  .about__list{
-    display: flex;
-    flex-wrap: wrap; 
-    align-items: center;
-    margin-left: -30px;
+  @media screen and (max-width: 767px) {
+    .about__item{
+      margin-bottom: 30px;
+    }
   }
-.about__item{
-  width: 354px;
-  margin-left: 30px;
-  margin-bottom: 30px;
-  flex-basis: calc(100% / 2-30px);
-}
-   
-}
-  
 
-@media screen and (min-width: 1200px) {
-  .container{
-    width: 1200px;
-  }
-  .about__list {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: left;
-    margin-left: -30px;
-    margin-top: -30px;
-    padding-top: var(--section-pt);
-    padding-bottom: 47px;
-    &__item {
-    flex-basis: calc((100% / 4) - 30px);
-    margin-left: 30px;
-    margin-top: 30px;
-  }
-  &__title {
+  .about__title {
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
   }
-  &__description {
+  .about__description {
     font-size: 14px;
     line-height: 1.71;
     color: var(--text-description-color);
   }
-  &__cardset {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 270px;
-    height: 120px;
-    background-color: var(--secondary-background-color);
-    border-radius: 4px;
-    margin-bottom: 30px;
-  }
-  }
-}
-
 /*.about__list {
   display: flex;
   flex-wrap: wrap;
