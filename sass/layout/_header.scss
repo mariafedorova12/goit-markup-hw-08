@@ -103,6 +103,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .page-header {
+    border-bottom: 1px solid;
+    border-color: #ececec;
+  }
   .navigation {
     display: flex;
     align-items: center;
