@@ -1,4 +1,4 @@
-.container{
+.container {
   padding-left: 15px;
   padding-right: 15px;
 
@@ -8,23 +8,23 @@
     justify-content: space-between;
     padding-top: 16px;
     padding-bottom: 16px;
+    margin: 0 auto;
   }
 }
- 
 
 @media screen and(min-width:480px) {
-  .container{
+  .container {
     width: 480px;
     margin: 0 auto;
   }
 }
-@media screen and(min-width:768px){
-  .container{
+@media screen and(min-width:768px) {
+  .container {
     width: 768px;
   }
 }
-@media screen and(min-width:1200px){
-  .container{
+@media screen and(min-width:1200px) {
+  .container {
     width: 1200px;
   }
 }
