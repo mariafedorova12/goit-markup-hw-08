@@ -74,7 +74,6 @@ img {
   align-items: center;
   justify-content: space-between;
   padding-top: 16px;
-  padding-bottom: 16px;
 }
 
 @media screen and (min-width: 480px) {
@@ -130,6 +129,7 @@ img {
   padding-bottom: var(--section-pb);
   padding-top: var(--section-pb);
 }*/
+
 .hero {
   max-width: 1600px;
   padding-top: 200px;
@@ -258,15 +258,11 @@ img {
 /*
 */
 .btn {
-  padding: 18px 32px;
   justify-content: center;
   border: none;
-  margin: 0px;
-  padding-bottom: 200px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--button-hover-color);
   min-width: 200px;
@@ -917,7 +913,7 @@ img {
   border-color: #ececec;
 }
 
-.hero {
+/*.hero {
   max-width: 1600px;
   min-height: 600px;
   padding: 200px 0;
@@ -942,46 +938,7 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--header-background-color);
-}
-
-.about {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.contanier {
-  padding-left: 15px;
-  padding-right: 15px;
-  min-width: 480px;
-}
-
-.about__list {
-  align-items: center;
-}
-
-.about__title {
-  margin-bottom: 10px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-}
-
-.about____description {
-  font-size: 14px;
-  line-height: 1.71;
-  color: #757575;
-}
-
-.about__cardset {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 270px;
-  height: 120px;
-  background-color: var(--secondary-background-color);
-  border-radius: 4px;
-}
+}*/
 
 @media screen and (min-width: 480px) {
   .contanier {

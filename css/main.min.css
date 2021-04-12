@@ -151,15 +151,11 @@ img {
   }
 }
 .btn {
-  padding: 18px 32px;
   justify-content: center;
   border: none;
-  margin: 0px;
-  padding-bottom: 200px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--button-hover-color);
   min-width: 200px;
@@ -556,7 +552,8 @@ img {
     width: 40px;
     height: 40px;
   }
-  .mobile-menu__close-icon:hover {
+  .mobile-menu__close-icon:hover,
+  .menu__icon:hover {
     fill: var(--accent-color);
   }
   .mobile-menu {
@@ -749,6 +746,10 @@ img {
   border-bottom: 1px solid;
   border-color: #ececec;
 }
+.hero-container {
+  display: flex;
+  flex-direction: column;
+}
 .hero {
   max-width: 1600px;
   min-height: 600px;
@@ -774,6 +775,7 @@ img {
   text-transform: uppercase;
   color: var(--header-background-color);
 }
+
 .about {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -807,11 +809,7 @@ img {
   background-color: var(--secondary-background-color);
   border-radius: 4px;
 }
-@media screen and (min-width: 480px) {
-  .contanier {
-    width: 480px;
-  }
-}
+
 .services .container {
   padding-top: 47px;
   padding-bottom: var(--section-pb);
