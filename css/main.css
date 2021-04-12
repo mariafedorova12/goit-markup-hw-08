@@ -207,9 +207,9 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .social-list__link {
@@ -295,9 +295,7 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list__link--footer:hover
-.social-list__icon--footer .social-list__link--footer:focus
-.social-list__icon--footer {
+.social-list__link--footer:hover .social-list__icon--footer .social-list__link--footer:focus .social-list__icon--footer {
   fill: var(--header-background-color);
 }
 
@@ -1138,9 +1136,6 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   height: 120px;
   background: var(--secondary-background-color);
   border-radius: 4px;
@@ -1156,6 +1151,7 @@ img {
   margin-bottom: 10px;
   text-align: center;
   margin-bottom: 10px;
+  color: var(--title-color);
 }
 
 .about .about__description {
@@ -1276,33 +1272,8 @@ img {
           align-items: center;
 }
 
-.crew-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  text-align: center;
-  margin-left: -30px;
-  margin-top: -30px;
-}
-
-.crew-list__item {
-  width: 270px;
-  -ms-flex-preferred-size: calc(100% / 4 - 30px);
-      flex-basis: calc(100% / 4 - 30px);
-  margin-left: 30px;
-  margin-top: 30px;
-}
-
-.crew-list__wrapper {
-  padding: 15px 20px;
-  border: 1px solid;
-  border-color: #ececec;
-  background: #ffffff;
-  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
+.crew {
+  background-color: var(--secondary-background-color);
 }
 
 .crew-list__title {
@@ -1310,10 +1281,6 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.87;
-}
-
-.crew {
-  background-color: var(--secondary-background-color);
 }
 
 .crew-list__position {

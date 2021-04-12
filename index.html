@@ -185,33 +185,29 @@
           <h2 class="services__title">Чем мы занимаемся</h2>
           <ul class="services__list list">
             <li class="services__item">
-              <img
-                class="services-img"
-                src="./images/services/serv-1.jpg"
-                alt="Кодировка"
-                width="370"
-                height="294"
-              />
+              <picture>
+                <source srcset="./images/services/typing.jpg 1x,./images/services/typing@2x.jpg 2x, " media="(min-width:1200px)">
+                <img class="services-img" src="./images/services/serv-1.jpg" 
+                alt="Кодировка"  /></picture>
+              
               <p class="services__overlay">ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</p>
             </li>
             <li class="services__item">
-              <img
-                class="services__img"
-                src="./images/services/serv-2.jpg"
-                alt="Мобильные приложения"
-                width="370"
-                height="294"
-              />
+              <picture>
+                <source srcset="./images/services/design.jpg 1x,./images/services/design@2x.jpg 2x, "
+                  media="(min-width:1200px)">
+              <img class="services__img" src="./images/services/serv-2.jpg"
+              alt="Мобильные приложения"/>
+              </picture>
+              
               <p class="services__overlay">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</p>
             </li>
             <li class="services__item">
-              <img
-                class="services__img"
-                src="./images/services/serv-3.jpg"
-                alt="Дизайн"
-                width="370"
-                height="294"
-              />
+              <picture>
+                <source srcset="./images/services/app.jpg 1x,./images/services/app@2x.jpg 2x, " media="(min-width:1200px)">
+<img class="services__img" src="./images/services/serv-3.jpg" alt="Дизайн"/>
+              </picture>
+              
               <p class="services__overlay">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</p>
             </li>
           </ul>
@@ -220,18 +216,20 @@
 
       <!--CREW-->
 
-       <!--<section class="crew">
+       <section class="crew">
         <div class="container">
           <h2 class="crew__title">Наша команда</h2>
           <ul class="crew-list list">
             <li class="crew-list__item">
 <picture>
-  <source srcset="" media="(min-width 1200px)">
-  <source srcset="" media="(min-width 768px)">
-  <source srcset="./images/mobile/Игорь.jpg 1x, ./images/mobile/Игорь@2x.jpg 2x" media="(min-width 480px)">
+  <source srcset=".jpg 1x, 
+  ..jpg 2x," media="(min-width: 1200px)">
+  <source srcset="..jpg 1x,
+  ./images/tablet/igor/img@2x.jpg 2x" media="(min-width: 768px)">
+  <source srcset="., . 2x" media="(min-width: 480px)">
   <img
   class="crew-list__img"
-  src=" ./images/crew/Игорь-1.jpg"
+  src=" ./images/crew/ihor-1jpg"
   alt="мужчина в бордовой рубашке и очках"
 />
 </picture>
@@ -271,13 +269,13 @@
               </div>
             </li>
             <li class="crew-list__item">
-             
-              <img
-                class="crew-list__img"
-                src="./images/crew/Ольга-2.jpg"
-                alt="девушка в чёрном пиджаке и очках"
-              />
-            
+             <picture>
+              <source srcset=". 2x" media="(min-width 1200px)">
+              <source srcset=" 2x" media="(min-width 768px)">
+              <source srcset=" 2x" media="(min-width 480px)">
+              <img class="crew-list__img" src="./images/crew/olga-2.jpg"
+               alt="девушка в чёрном пиджаке и очках" />
+             </picture>
               
               <div class="crew-list__wrapper">
                 <h3 class="crew-list__title">Ольга Репина</h3>
@@ -315,13 +313,14 @@
               </div>
             </li>
             <li class="crew-list__item">
-             
-              <img
-                class="crew-list__img"
-                src="./images/crew/Николай-3.jpg"
-                alt="улыбающийся мужчина в белой рубашке"
-               
-              />
+             <picture>
+              <source srcset=". 2x" media="(min-width 1200px)">
+              <source srcset=" 2x" media="(min-width 768px)">
+              <source srcset=" 2x" media="(min-width 480px)">
+              <img class="crew-list__img" src="./images/crew/nikolay-3.jpg" 
+              alt="улыбающийся мужчина в белой рубашке" />
+             </picture>
+              
               
               <div class="crew-list__wrapper">
                 <h3 class="crew-list__title">Николай Тарасов</h3>
@@ -359,13 +358,14 @@
               </div>
             </li>
             <li class="list crew-list__item">
-             
-                <img
-                  class="crew-list__img"
-                  src="./images/crew/Михаил-4.jpg"
-                  alt="мужчина в очках и чёрной рубашке"
-                 
-                />
+             <picture>
+              <source srcset=". 2x" media="(min-width 1200px)">
+              <source srcset=" 2x" media="(min-width 768px)">
+              <source srcset=" 2x" media="(min-width 480px)">
+              <img class="crew-list__img" src="./images/crew/michael-4.jpg"
+               alt="мужчина в очках и чёрной рубашке" />
+             </picture>
+               
               <div class="crew-list__wrapper">
                 <h3 class="crew-list__title">Михаил Ермаков</h3>
                 <p class="crew-list__position" lang="en">UI Designer</p>
@@ -404,7 +404,7 @@
           </ul>
         </div>
       </section>
-    </main>-->
+    </main>
 
     <!--REGULAR CLIENTS-->
     
