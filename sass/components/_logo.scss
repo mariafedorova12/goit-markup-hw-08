@@ -7,10 +7,12 @@
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
-@media screen and (min-width: 768px){
-.logo{
-  margin-right: 88px;
-}
+@media screen and (min-width: 768px) {
+  .logo_theme_dark {
+    margin-right: 88px;
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
 }
 
 .logo__accent-text {

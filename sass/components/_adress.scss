@@ -1,5 +1,4 @@
-
-.adress__item{
+.adress__item {
   &:not(:last-child) {
     margin-bottom: 9px;
   }
@@ -15,4 +14,28 @@
 
 .adress__link--light {
   color: var(--secondary-text-color);
+}
+@media screen and (max-width: 767px) {
+  .address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 0;
+  }
+
+  .adress-wrapper {
+    padding-right: 0;
+  }
+
+  .adress__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .adress__item:not(:last-child) {
+    margin-bottom: 8px;
+  }
 }

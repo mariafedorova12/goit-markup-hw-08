@@ -103,6 +103,17 @@ img {
   }
 }
 
+.footer.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 /*.container {
   width: 1200px;
   margin: 0 auto;
@@ -130,12 +141,7 @@ img {
   padding-bottom: var(--section-pb);
 }
 
-.footer.container {
-  display: flex;
-  align-items: baseline;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
+
 .portfolio.container {
   padding-bottom: var(--section-pb);
   padding-top: var(--section-pb);
@@ -151,8 +157,10 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-  .logo {
+  .logo_theme_dark {
     margin-right: 88px;
+    margin-bottom: 20px;
+    margin-right: 0;
   }
 }
 
@@ -207,9 +215,9 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .social-list__link {
@@ -299,6 +307,25 @@ img {
   fill: var(--header-background-color);
 }
 
+@media screen and (min-width: 480px) {
+  .join {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .join {
+    display: inline-block;
+    margin-bottom: 21px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    fill: solid;
+    color: #ffffff;
+  }
+}
+
 .adress__item:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -313,6 +340,46 @@ img {
 
 .adress__link--light {
   color: var(--secondary-text-color);
+}
+
+@media screen and (max-width: 767px) {
+  .address {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-right: 0;
+  }
+  .adress-wrapper {
+    padding-right: 0;
+  }
+  .adress__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .adress__item:not(:last-child) {
+    margin-bottom: 8px;
+  }
 }
 
 .backdrop {
@@ -575,11 +642,8 @@ img {
   background-color: var(--accent-color);
 }
 
-.signup-form {
-  margin-left: 93px;
-}
-
 .signup-form__title {
+  margin-top: 60px;
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -593,13 +657,16 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  /*align-items: center;*/
 }
 
 .signup-form__input {
-  margin-right: 20px;
+  /*margin-right: 20px;*/
+  margin-bottom: 20px;
   width: 358px;
   height: 50px;
   padding: 0 16px;
@@ -661,6 +728,18 @@ img {
   background-color: var(--accent-color);
   outline: none;
   cursor: pointer;
+}
+
+@media screen and (min-width: 480px) {
+  .signup-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .portfolio-list {
@@ -1325,6 +1404,81 @@ img {
   color: var(--text-description-color);
 }
 
+.crew {
+  background-color: var(--secondary-background-color);
+}
+
+.crew-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.crew-list__title {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.crew-list__item {
+  margin-left: 30px;
+  margin-top: 30px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+@media screen and (max-width: 767px) {
+  .crew {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .crew-list__title {
+    font-size: 28px;
+    line-height: 1.18;
+  }
+  .crew-list__item {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .crew {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .crew-list__item {
+    -ms-flex-preferred-size: calc(100% / 2 - 30);
+        flex-basis: calc(100% / 2 - 30);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .crew {
+    padding-top: var(--section pt);
+    padding-bottom: var(--section-pb);
+  }
+  .crew-list__item {
+    -ms-flex-preferred-size: calc(100% / 4 - 30);
+        flex-basis: calc(100% / 4 - 30);
+  }
+}
+
 .clients {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -1466,6 +1620,16 @@ img {
 
 .footer {
   background-color: var(--footer-background-color);
+}
+
+.footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .cardset {

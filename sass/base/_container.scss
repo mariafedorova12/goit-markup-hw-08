@@ -27,6 +27,12 @@
     width: 1200px;
   }
 }
+.footer.container {
+  display: flex;
+  align-items: baseline;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 /*.container {
   width: 1200px;
   margin: 0 auto;
@@ -54,12 +60,7 @@
   padding-bottom: var(--section-pb);
 }
 
-.footer.container {
-  display: flex;
-  align-items: baseline;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
+
 .portfolio.container {
   padding-bottom: var(--section-pb);
   padding-top: var(--section-pb);
