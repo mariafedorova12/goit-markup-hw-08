@@ -68,9 +68,10 @@ img {
 .container {
   padding-left: 15px;
   padding-right: 15px;
+  outline: 1px solid orange;
 }
 
-.page-header .container {
+.header .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -80,8 +81,6 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-top: 16px;
-  margin: 0 auto;
 }
 
 @media screen and (min-width: 480px) {
@@ -103,49 +102,6 @@ img {
   }
 }
 
-.footer.container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-/*.container {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
-.page-header .container {
-  display: flex;
-  align-items: center;
-}
-
-.hero-container {
-  align-items: center;
-  text-align: center;
-  padding-bottom: var(--section-pb);
-}
-
-.crew .container {
-  padding-top: var(--section-pt);
-  padding-bottom: var(--section-pb);
-}
-
-.clients .container {
-  padding-top: var(--section-pt);
-  padding-bottom: var(--section-pb);
-}
-
-
-.portfolio.container {
-  padding-bottom: var(--section-pb);
-  padding-top: var(--section-pb);
-}*/
 .logo {
   /*margin-right: 93px;*/
   font-family: var(--secondary-font);

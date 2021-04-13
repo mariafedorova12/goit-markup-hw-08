@@ -1,67 +1,93 @@
 .container {
   padding-left: 15px;
   padding-right: 15px;
-
-  .page-header & {
+  outline: 1px solid orange;
+  .header & {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 16px;
-    margin: 0 auto;
   }
 }
-
-@media screen and(min-width:480px) {
+@media screen and (min-width: 480px) {
   .container {
     width: 480px;
     margin: 0 auto;
   }
 }
-@media screen and(min-width:768px) {
+@media screen and (min-width: 768px) {
   .container {
     width: 768px;
   }
 }
-@media screen and(min-width:1200px) {
+@media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
   }
 }
-.footer.container {
-  display: flex;
-  align-items: baseline;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-/*.container {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
 
-.page-header .container {
-  display: flex;
-  align-items: center;
-}
+// .container {
+//   padding-left: 15px;
+//   padding-right: 15px;
 
-.hero-container {
-  align-items: center;
-  text-align: center;
-  padding-bottom: var(--section-pb);
-}
+//   .header & {
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+//     padding-top: 16px;
+//     margin: 0 auto;
+//   }
+// }
 
-.crew .container {
-  padding-top: var(--section-pt);
-  padding-bottom: var(--section-pb);
-}
+// @media screen and(min-width:480px) {
+//   .container {
+//     width: 480px;
+//     margin: 0 auto;
+//   }
+// }
+// @media screen and(min-width:768px) {
+//   .container {
+//     width: 768px;
+//   }
+// }
+// @media screen and(min-width:1200px) {
+//   .container {
+//     width: 1200px;
+//   }
+// }
+// .footer.container {
+//   display: flex;
+//   align-items: baseline;
+//   padding-top: 60px;
+//   padding-bottom: 60px;
+// }
+// .container {
+//   width: 1200px;
+//   margin: 0 auto;
+//   padding: 0 15px;
+// }
 
-.clients .container {
-  padding-top: var(--section-pt);
-  padding-bottom: var(--section-pb);
-}
+// .page-header .container {
+//   display: flex;
+//   align-items: center;
+// }
 
+// .hero-container {
+//   align-items: center;
+//   text-align: center;
+//   padding-bottom: var(--section-pb);
+// }
 
-.portfolio.container {
-  padding-bottom: var(--section-pb);
-  padding-top: var(--section-pb);
-}*/
+// .crew .container {
+//   padding-top: var(--section-pt);
+//   padding-bottom: var(--section-pb);
+// }
+
+// .clients .container {
+//   padding-top: var(--section-pt);
+//   padding-bottom: var(--section-pb);
+// }
+
+// .portfolio.container {
+//   padding-bottom: var(--section-pb);
+//   padding-top: var(--section-pb);
+// }
