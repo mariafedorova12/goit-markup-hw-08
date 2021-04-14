@@ -134,8 +134,8 @@ img {
   margin-right: 0;
 }
 
-@media screen and (min-width: 480px) {
-  .logo_theme_dark {
+@media screen and (max-width: 767px) {
+  .logo.logo_theme_dark {
     text-align: center;
   }
 }
@@ -280,15 +280,20 @@ img {
   fill: var(--header-background-color);
 }
 
-.join-us {
-  padding-top: 60px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+@media screen and (max-width: 767px) {
+  .join-us {
+    padding-top: 60px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .subscribe {
+    padding-top: 60px;
+  }
 }
 
-.subscribe {
-  padding-top: 60px;
+.adress-info {
+  margin-top: 20px;
 }
 
 .adress__item:not(:last-child) {
@@ -324,27 +329,10 @@ img {
             justify-content: center;
     padding-right: 0;
   }
-  .adress-wrapper {
-    padding-right: 0;
-  }
-  .adress__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .adress__item:not(:last-child) {
-    margin-bottom: 8px;
-  }
+}
+
+.adress__item:not(:last-child) {
+  margin-bottom: 8px;
 }
 
 .backdrop {
@@ -683,6 +671,25 @@ img {
   background-color: var(--accent-color);
   outline: none;
   cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .signup-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 60px;
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .signup-form {
+    margin-top: 12px;
+    margin-left: 93px;
+    margin-bottom: 12px;
+    width: 570px;
+  }
 }
 
 .portfolio-list {

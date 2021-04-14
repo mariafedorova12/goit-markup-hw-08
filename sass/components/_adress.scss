@@ -1,3 +1,6 @@
+.adress-info {
+  margin-top: 20px;
+}
 .adress__item {
   &:not(:last-child) {
     margin-bottom: 9px;
@@ -23,19 +26,8 @@
     justify-content: center;
     padding-right: 0;
   }
+}
 
-  .adress-wrapper {
-    padding-right: 0;
-  }
-
-  .adress__list {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .adress__item:not(:last-child) {
-    margin-bottom: 8px;
-  }
+.adress__item:not(:last-child) {
+  margin-bottom: 8px;
 }

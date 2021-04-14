@@ -71,12 +71,13 @@
     fill: var(--header-background-color);
   }
 }
+@media screen and (max-width: 767px) {
+  .join-us {
+    padding-top: 60px;
+    justify-content: center;
+  }
 
-.join-us {
-  padding-top: 60px;
-  justify-content: center;
-}
-
-.subscribe {
-  padding-top: 60px;
+  .subscribe {
+    padding-top: 60px;
+  }
 }
