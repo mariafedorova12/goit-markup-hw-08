@@ -19,12 +19,13 @@
   color: var(--secondary-text-color);
 }
 @media screen and (max-width: 767px) {
-  .address {
+  .footer__adress {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-right: 0;
+    //padding-right: 0;
+    text-align: start;
   }
 }
 

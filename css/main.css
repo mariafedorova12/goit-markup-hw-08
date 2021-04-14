@@ -128,7 +128,7 @@ img {
   color: var(--title-color);
 }
 
-.logo_theme_dark {
+.logo.logo_theme_dark {
   color: var(--header-background-color);
   margin-bottom: 20px;
   margin-right: 0;
@@ -340,7 +340,7 @@ img {
 }
 
 @media screen and (max-width: 767px) {
-  .address {
+  .footer__adress {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -354,7 +354,7 @@ img {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding-right: 0;
+    text-align: start;
   }
 }
 
@@ -633,12 +633,9 @@ img {
 }
 
 .signup-form__input {
-  /*margin-right: 20px;*/
-  margin-bottom: 20px;
   width: 358px;
   height: 50px;
   padding: 0 16px;
-  margin-right: 12px;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
@@ -675,14 +672,12 @@ img {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin: 0 auto;
   padding: 10px 28px 10px 29px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
   min-width: 200px;
-  align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -700,7 +695,7 @@ img {
   cursor: pointer;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 767px) {
   .subscribe {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -708,14 +703,27 @@ img {
     margin-top: 60px;
     width: 450px;
   }
+  .signup-form__input {
+    margin-bottom: 20px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .subscribe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     margin-top: 12px;
     margin-left: 93px;
+    padding-top: 0px;
     margin-bottom: 12px;
     width: 570px;
+    text-align: start;
+  }
+  .signup-form__input {
+    margin-right: 12px;
   }
 }
 
@@ -1624,9 +1632,6 @@ img {
         flex-wrap: wrap;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    -webkit-box-align: baseline;
-        -ms-flex-align: baseline;
-            align-items: baseline;
   }
 }
 
@@ -1639,9 +1644,7 @@ img {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    -webkit-box-align: baseline;
-        -ms-flex-align: baseline;
-            align-items: baseline;
+    text-align: start;
   }
 }
 

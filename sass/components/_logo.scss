@@ -22,10 +22,11 @@
   color: var(--title-color);
 }
 
-.logo_theme_dark {
+.logo.logo_theme_dark {
   color: var(--header-background-color);
   margin-bottom: 20px;
   margin-right: 0;
+  
 }
 
 @media screen and (max-width: 767px) {
