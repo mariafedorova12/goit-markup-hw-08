@@ -1175,6 +1175,9 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1196,7 +1199,11 @@ img {
   color: var(--title-color);
 }
 
-.about .about__description {
+.about__icon {
+  margin: 0 auto;
+}
+
+.about__description {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -1204,29 +1211,29 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-  .about__list {
+  __list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     margin-left: -30px;
   }
-  .about__item {
+  __item {
     -ms-flex-preferred-size: calc(100% / 2 - 30px);
         flex-basis: calc(100% / 2 - 30px);
     margin-left: 30px;
   }
-  .about__title {
+  __title {
     text-align: left;
+  }
+  __icon {
+    margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .about__list {
+  __list {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -1234,13 +1241,13 @@ img {
     padding-top: var(--section-pt);
     padding-bottom: 47px;
   }
-  .about__item {
+  __item {
     -ms-flex-preferred-size: calc(100% / 4 - 30px);
         flex-basis: calc(100% / 4 - 30px);
     margin-left: 30px;
     margin-top: 30px;
   }
-  .about__box {
+  __box {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1468,6 +1475,7 @@ img {
           justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-left: -30px;
 }
 
 .clients-list__item {
