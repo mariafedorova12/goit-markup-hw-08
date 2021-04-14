@@ -1160,15 +1160,25 @@ img {
   }
 }
 
+.about {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
 .about__list {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: -15px;
 }
 
 .about__item {
-  margin-bottom: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 15px;
 }
 
 .about__box {
@@ -1199,41 +1209,36 @@ img {
   color: var(--title-color);
 }
 
-.about__icon {
-  margin: 0 auto;
-}
-
 .about__description {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-description-color);
 }
 
-@media screen and (min-width: 768px) {
-  __list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin-left: -30px;
+@media screen and (max-width: 767px) {
+  .about__title {
+    text-align: center;
   }
-  __item {
-    -ms-flex-preferred-size: calc(100% / 2 - 30px);
-        flex-basis: calc(100% / 2 - 30px);
+  .about__box {
+    min-width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about__item {
+    -ms-flex-preferred-size: calc((100% / 2 - 30px));
+        flex-basis: calc((100% / 2 - 30px));
     margin-left: 30px;
   }
-  __title {
+  .about__title {
     text-align: left;
-  }
-  __icon {
-    margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  __list {
+  .about__list {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -1241,27 +1246,11 @@ img {
     padding-top: var(--section-pt);
     padding-bottom: 47px;
   }
-  __item {
-    -ms-flex-preferred-size: calc(100% / 4 - 30px);
-        flex-basis: calc(100% / 4 - 30px);
+  .about__item {
+    -ms-flex-preferred-size: calc((100% / 4 - 30px));
+        flex-basis: calc((100% / 4 - 30px));
     margin-left: 30px;
     margin-top: 30px;
-  }
-  __box {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    width: 270px;
-    height: 120px;
-    background: var(--secondary-background-color);
-    border-radius: 4px;
-    margin-bottom: 30px;
   }
 }
 
