@@ -292,6 +292,33 @@ img {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .join-us {
+    display: block;
+    margin-left: 70px;
+    margin-top: 12px;
+    margin-right: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .signup-form__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .adress-info {
   margin-top: 20px;
 }
@@ -674,7 +701,7 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-  .signup-form {
+  .subscribe {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -684,7 +711,7 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
-  .signup-form {
+  .subscribe {
     margin-top: 12px;
     margin-left: 93px;
     margin-bottom: 12px;
