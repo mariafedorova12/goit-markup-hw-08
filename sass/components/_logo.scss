@@ -27,3 +27,9 @@
   margin-bottom: 20px;
   margin-right: 0;
 }
+
+@media screen and (min-width: 480px) {
+  .logo_theme_dark {
+    text-align: center;
+  }
+}

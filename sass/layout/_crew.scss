@@ -89,8 +89,8 @@
 }
 @media screen and (min-width: 768px) {
   .crew {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: var(--section-pt);
+    padding-bottom: var(--section-pb);
   }
   .crew-list__item {
     flex-basis: calc(100% / 2 - 30);
