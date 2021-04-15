@@ -45,18 +45,18 @@
   color: var(--text-description-color);
 }
 
-.cardset__img {
+.cardset__wrapper {
   position: relative;
   overflow: hidden;
   max-width: 100%;
-  /*&:hover .cardset__img-overlay,
-  &:focus .cardset__img-overlay {
+  &:hover .cardset__overlay,
+  &:focus .cardset__overlay {
     transform: translateY(0%);
     opacity: 1;
-  }*/
+  }
 }
 
-.cardset__img-overlay {
+.cardset__overlay {
   position: absolute;
   top: 100%;
   left: 0;
@@ -80,6 +80,13 @@
     transform: translateY(-100%);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+  .cardset__overlay.cardset__overlay{
+    .cardset__link:hover&{
+      transform: translateY(0%);
+      opacity: 1;
+    }
+    
+  }
 }
 
 
@@ -87,6 +94,8 @@
   .cardset__item {
     flex-basis: calc(100% - 30px);
   }
+  
+
 }
 //Tablet
 @media screen and (min-width: 768px) {
