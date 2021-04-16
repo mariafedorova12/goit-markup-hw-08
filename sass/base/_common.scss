@@ -2,6 +2,8 @@ body {
   font-family: var(--main-font);
   background-color: #ffffff;
   color: var(--title-color);
+  overflow-x: hidden;
+
 }
 
 h1,
@@ -22,7 +24,7 @@ ol {
 
 img {
   display: block;
-  max-width: 370px;
+  max-width: 100%;
 }
 
 .link {
