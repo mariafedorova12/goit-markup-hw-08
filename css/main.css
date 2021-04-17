@@ -633,6 +633,16 @@ img {
   color: #ffffff;
 }
 
+.subscribe {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sign-form__wrapper {
+  width: 450px;
+}
+
 .signup-form__input {
   width: 100%;
   height: 50px;
@@ -703,6 +713,9 @@ img {
     display: flex;
     padding-top: 60px;
   }
+  .sign-form__wrapper {
+    width: 450px;
+  }
   .signup-form__input {
     width: 100%;
     margin-bottom: 20px;
@@ -713,8 +726,11 @@ img {
   .subscribe {
     padding-top: 60px;
   }
-  .signup-form__input {
+  .sign-form__wrapper {
     width: 450px;
+  }
+  .signup-form__input {
+    width: 100%;
   }
 }
 
