@@ -50,7 +50,6 @@ ol {
 
 img {
   display: block;
-  max-width: 100%;
 }
 
 .link {
@@ -635,7 +634,7 @@ img {
 .signup-form__input {
   width: 100%;
   height: 50px;
-  padding: 0 16px;
+  padding-left: 16px;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
@@ -713,7 +712,7 @@ img {
     padding-top: 60px;
   }
   .signup-form__input {
-    width: 100%;
+    width: 450px;
   }
 }
 
@@ -1410,6 +1409,7 @@ img {
 }
 
 .crew-list__wrapper {
+  width: 100%;
   padding: 15px 20px;
   border: 1px solid;
   border-color: #ececec;
