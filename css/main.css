@@ -50,7 +50,7 @@ ol {
 
 img {
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -1404,8 +1404,6 @@ img {
 
 .crew-list__item {
   width: 100%;
-  -ms-flex-preferred-size: calc(100% / 4 - 30px);
-      flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -1498,8 +1496,8 @@ img {
     padding-bottom: var(--section-pb);
   }
   .crew-list__item {
-    -ms-flex-preferred-size: calc(100% / 2 - 30);
-        flex-basis: calc(100% / 2 - 30);
+    -ms-flex-preferred-size: calc(100% / 2 - 30px);
+        flex-basis: calc(100% / 2 - 30px);
   }
 }
 
@@ -1509,8 +1507,8 @@ img {
     padding-bottom: var(--section-pb);
   }
   .crew-list__item {
-    -ms-flex-preferred-size: calc(100% / 4 - 30);
-        flex-basis: calc(100% / 4 - 30);
+    -ms-flex-preferred-size: calc(100% / 4 - 30px);
+        flex-basis: calc(100% / 4 - 30px);
   }
 }
 

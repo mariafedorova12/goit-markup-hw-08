@@ -2,7 +2,7 @@ body {
   font-family: var(--main-font);
   background-color: #ffffff;
   color: var(--title-color);
-  overflow-x: hidden;
+overflow-x: hidden;
 
 }
 
@@ -24,7 +24,7 @@ ol {
 
 img {
   display: block;
- max-width: 100%;
+ width: 100%;
  height: auto;
 }
 
