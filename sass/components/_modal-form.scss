@@ -123,4 +123,24 @@
     background-color: var(--accent-color);
   }
 }
-  
+@media screen and (max-width: 480px) {
+  .modal-form__check-desc{
+    font-size: 10px;
+    line-height: 1.71;
+    letter-spacing: 0.02em;
+  }
+  .modal-form__text{
+font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  }
+}
+
+//Desktop >1200
+@media screen and (min-width: 1200px) {
+  .modal-form__check-desc {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  }
+}

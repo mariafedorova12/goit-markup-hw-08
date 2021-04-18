@@ -391,8 +391,6 @@ img {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  min-width: 450px;
-  min-height: 609px;
   background-color: #fff;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -407,7 +405,7 @@ img {
   padding: 40px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 320px) {
   .modal .modal {
     min-width: 90vw;
     min-height: 80vh;
@@ -621,6 +619,27 @@ img {
 
 .modal-form__btn:focus {
   background-color: var(--accent-color);
+}
+
+@media screen and (max-width: 480px) {
+  .modal-form__check-desc {
+    font-size: 10px;
+    line-height: 1.71;
+    letter-spacing: 0.02em;
+  }
+  .modal-form__text {
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .modal-form__check-desc {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  }
 }
 
 .signup-form__title {
@@ -875,7 +894,6 @@ img {
     top: 0;
     left: 50%;
     width: 100vw;
-    max-width: 100%;
     height: 100vh;
     padding: 48px 40px;
     background: #ffffff;
@@ -937,11 +955,10 @@ img {
   }
   .mobile-social__link {
     position: relative;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 8px;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 1.22px;
+    font-size: 14px;
+    line-height: 1;
     color: #2196f3;
   }
   .mobile-social__item {
